@@ -1,0 +1,26 @@
+//variables in dart
+//comments line
+
+void main()
+{
+  var a="Hello";
+ 
+    
+  dynamic b="Hello2";
+ 
+  print(a);
+  print(b);
+  
+  
+ // data types
+  
+  int c=5;
+  double d=7.8;
+  String e="elorbis";
+ 
+  print(c);
+  print(d);
+  print(e);
+  
+  
+}

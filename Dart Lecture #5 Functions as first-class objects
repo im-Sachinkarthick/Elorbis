@@ -1,0 +1,28 @@
+//Dart Lecture #5 
+//Functions as first-class objects
+
+void main() {
+  //void main(List<String> arguments){
+  //Function
+  
+  void printElement(var element){
+  print(element);
+  }
+
+  var list = ['a','b','c','d','e'];
+
+  // Pass printElement as a parameter.
+  
+  list.forEach(printElement);
+}
+
+
+//Output COnsole
+
+/*
+a
+b
+c
+d
+e
+*/

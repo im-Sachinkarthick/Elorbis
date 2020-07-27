@@ -1,0 +1,29 @@
+void main() {
+  //Function
+  
+  dynamic add(var a,var b){  //Function 1
+    return a+b;
+  }
+  
+  dynamic add1(var a,var b) => a+b;   //Function 2
+  
+  /* Shorthand for return => */
+  
+  var c = add(5,6);       //Function 1 Calling with int 
+  print(c);
+  
+  print(add('s','a'));  //Function 1 Calling with string
+  
+  print(add(5.4,4.6));  //Function 1 Calling with double
+  
+  print(add1(4,8));     //Function 2 Calling with int
+}
+
+
+/*
+Console Output
+11
+sa
+10
+12
+/*
