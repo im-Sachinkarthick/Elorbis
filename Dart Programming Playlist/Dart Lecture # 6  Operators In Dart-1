@@ -1,0 +1,32 @@
+//Dart Lecture # 6  Operators In Dart-1
+
+void main() {
+  
+//Arithmetic operators
+  print(2+3);   // '+' sign
+  print(2-3);   // '-' sign
+  print(2*3);   // '*' sign
+  print(5/2);   // Result is a double
+  print(5~/2); // Result is an int
+  print(5%2);  // Remainder
+  
+//Postfix and Prefix Operators
+  var a=1;
+
+
+a++;
+print(a); 
+
+a--;
+print(a); 
+  
+++a;
+print(a); 
+
+--a;
+print(a); 
+  
+}
+
+
+
