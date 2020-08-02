@@ -1,0 +1,37 @@
+//Dart Lecture # 7  Operators In Dart-2
+
+void main() {
+  //Equality and relational operators
+
+  print(2 == 2);  // Equal
+  print(2 != 3);  //Not equal
+  print(3 > 2);   //Greater than
+  print(2 < 3);   //Less than
+  print(3 >= 3);  //Greater than or equal to
+  print(2 <= 3);  //Less than or equal to
+  
+  //Type test operators
+  
+  
+   int n = 2; 
+   print(n is int); //is Operator
+
+   double  m = 2.20; 
+   var num = m is! int;  //is! Operator
+   print(num); 
+}
+
+
+/*
+Console Output
+
+true
+true
+true
+true
+true
+true
+true
+true
+
+*/
